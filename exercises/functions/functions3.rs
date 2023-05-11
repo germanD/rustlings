@@ -1,10 +1,10 @@
 // functions3.rs
 // Execute `rustlings hint functions3` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
 
 fn main() {
-    call_me();
+    let MAYBE = 42;
+    call_me(MAYBE);
 }
 
 fn call_me(num: u32) {
